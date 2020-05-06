@@ -23,7 +23,7 @@ The dataset consists of a training set of 60,000 examples and a test set of 10,0
 
 Here's an example how the data looks (_each class takes three-rows_):
 
-![Fashion MNIST Dataset](https://github.com/zalandoresearch/fashion-mnist/raw/master/doc/img/fashion-mnist-sprite.png)
+![Fashion MNIST Dataset](helper_images/fashion-mnist.png)
 
 Now that we know what our dataset has, let’s jump to the code.
 
@@ -146,7 +146,7 @@ print(model.summary())
 # plot graph
 tf.keras.utils.plot_model(model, to_file='helper_images/fashion_mnist_cnn.png')
 ```
-![]()
+![Model Visualization](helper_images/fashion_mnist_cnn.png)
 
 ### Compile our Model
 We use model.compile() to configure the learning process before training the model by defining the type of loss function, optimizer, and the metrics evaluated by the model during training and testing.
@@ -209,7 +209,7 @@ for i, index in enumerate(np.random.choice(x_test.shape[0], size=15, replace=Fal
                                   fashion_mnist_labels[true_index]),
                                   color=("green" if predict_index == true_index else "red"))
 ```
-![]()
+![Visualization of Prediction](helper_images/final-classification-fashion-mnist.png)
 
 
 ## Congratulations!
