@@ -1,4 +1,4 @@
-# How to start your first AI project
+# How to start your first AI project on Nimblebox
 In this article, you'll learn to build a convolutional neural network (CNN) and train it with the [Fashion MNIST Dataset](https://github.com/zalandoresearch/fashion-mnist). Fashion MNIST Dataset is a data with 70,000 images and contains 10 classes of clothing with a dimension of 28 by 28 grayscale image color.
 
 This post is also available as a [Nimblebox notebook](https://github.com/NimbleBoxAI/how-to-start-your-first-ai-project). Feel free to copy and run the notebook in your account and mess around with the code. To learn more about Nimblebox, read the official [blog post]().
